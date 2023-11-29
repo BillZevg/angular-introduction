@@ -12,4 +12,11 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   name: string = "Bill";
   lastName = "Zevgitis";
+
+  person = {
+    givenName: 'Bill',
+    surName: 'Zevgitis',
+    age: 36,
+    email: 'bzevgitis@aueb.gr',
+  }
 }
