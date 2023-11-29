@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+import { PersonComponent } from './person/person.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet],
+  imports: [CommonModule, RouterOutlet, PersonComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
@@ -13,10 +14,5 @@ export class AppComponent {
   name: string = "Bill";
   lastName = "Zevgitis";
 
-  person = {
-    givenName: 'Bill',
-    surName: 'Zevgitis',
-    age: 36,
-    email: 'bzevgitis@aueb.gr',
-  }
+
 }
