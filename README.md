@@ -1,6 +1,14 @@
 # Εισαγωγή στο Angural Framework
 
+## 5. Event Biding (template -> controller)
+
+- Click handlers
+- Input handler
+- Two way binding
+
 ## 4. \*ngFor Directive
+
+-
 
 ## 3. ALternate component input
 

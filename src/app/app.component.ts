@@ -5,12 +5,13 @@ import { Person } from './interfaces/person';
 
 import { PersonComponent } from './person/person.component';
 import { PersonAltComponent } from './person-alt/person-alt.component';
+import { EventBindComponent } from './event-bind/event-bind.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, PersonComponent, PersonAltComponent],
+  imports: [CommonModule, RouterOutlet, PersonComponent, PersonAltComponent, EventBindComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
