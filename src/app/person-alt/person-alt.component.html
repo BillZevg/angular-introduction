@@ -1,4 +1,5 @@
-<p>Here are more details</p>
+<ng-container *ngIf="person; else nodata">
+    <p>Here are more details</p>
 <table>
     <tr>
         <td class="header">First Name</td>
@@ -21,3 +22,8 @@
         <td>{{ person.address}}</td>
     </tr>
 </table>
+</ng-container> 
+
+<ng-template #nodata>
+    <p>No person details</p>
+</ng-template>
