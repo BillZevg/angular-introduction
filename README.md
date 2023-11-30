@@ -1,5 +1,7 @@
 # Εισαγωγή στο Angural Framework
 
+## 4. \*ngFor Directive
+
 ## 3. ALternate component input
 
 -input | undefinded
