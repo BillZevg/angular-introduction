@@ -9,6 +9,7 @@ import { EventBindComponent } from './event-bind/event-bind.component';
 import { OutputDemoComponent } from './output-demo/output-demo.component';
 import { PersonCardComponent } from './person-card/person-card.component';
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
+import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 
 
 @Component({
@@ -22,6 +23,7 @@ import { TemplateDrivenFormComponent } from './template-driven-form/template-dri
             OutputDemoComponent,
             PersonCardComponent,
             TemplateDrivenFormComponent,
+            ReactiveFormComponent
                   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
