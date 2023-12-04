@@ -22,7 +22,7 @@ export class CrudDemoComponent {
   crudOperation: string | undefined;
 
   onSelection(operation:string) {
-    this.crudOperation = operation
+    this.crudOperation = operation;
   }
 
 }
